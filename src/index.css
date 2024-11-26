@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.appcontainer{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.images{
+  padding: 5px;
+  box-shadow: 0px 0px 10px rgb(179, 4, 53);
+}
+.inputlabel{
+  display: block;
+  margin: 10px;
+  color: #088e9d;
+  font-size: 15px;
+  font-weight: 600;
+}
+input[type="text"]{
+  padding: 12px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 15px;
+  border: 2px solid lightskyblue;
+  border-radius: 5px;
+
+}
+button{
+  padding: 10px 20px;
+  font-size: 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+
+}
+.generatebutton{
+  background-color: rgb(8, 216, 216);
+}
+.generatebutton:disabled{
+  background-color: white;
+  cursor: not-allowed;
+}
+.download{
+  background-color: rgb(8, 215, 118);
+  margin-left: 10px;
+}
+.generatebutton:hover{
+  background-color: rgb(5, 155, 236);
+}
+.download:hover{
+  background-color: rgb(60, 240, 60);
+}
+.clickbutton{
+  margin-left:10px;
+  background-color: chartreuse;
+
+}
+.clickbutton a{
+  text-decoration: none;
+  color: white;
+}

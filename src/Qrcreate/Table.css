@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.tablecreation{
+    padding-inline: 2vw;
+}
+table{
+    border:2px solid black;
+    border-collapse:collapse;
+    margin-top: 10px;
+    width: 500px;
+    height: 200px;
+}
+table td{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+table td:first-child{
+     font-weight:600 ;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 30px;
+    gap: 20px;
+}
+.select{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.description  textarea{
+    width: 500px;
+    height: 200px;
+}
